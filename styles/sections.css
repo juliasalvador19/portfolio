@@ -1,0 +1,46 @@
+#sobre {
+    background-image: url("../assets/images/Background_Intro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+
+    .image-me {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 87px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid #FFF;
+            margin-block: 132px 68px;
+        }
+    }
+
+    .tecnologias {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+
+        div {
+            display: flex;
+            padding: 5px;
+            align-items: center;
+            gap: 5px;
+            border-radius: 20px;
+            background: var(--color-gray-400);
+
+            img {
+                width: 20px;
+            }
+        }
+    }
+
+    .next-page {
+        margin-block: 100px
+    }
+
+
+}
